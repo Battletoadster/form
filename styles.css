@@ -199,8 +199,7 @@ img{
 	align-items: center;
 	position: absolute;
 	width: 100%;
-	background: black;
-	opacity: 0.6;
+	background: rgba(0, 0, 0, 0.6);
 	top: 8rem;
 	text-align: center;
 	font-size: 5em;

@@ -147,47 +147,62 @@ summary {
 		url(assets/Norse-Bold.otf) format('opentype');
 }
 
-html, body{
+html,
+body {
 	height: 100%;
-  }
- 
-body, .form-content{
+}
+
+body,
+.form-content {
 	display: flex;
 }
 
-.form-content{
+.form-content {
 	flex-direction: column;
 	justify-content: space-around;
 	width: 100%;
 }
 
-.top, .middle, .bottom{
+.top,
+.middle,
+.bottom {
 	height: 100%;
+	padding-left: 2em;
 }
 
-.top, .bottom{
-background-color: #f0f5f7;
+.top,
+.bottom {
+	background-color: #f0f5f7;
 }
 
-img{
+.top{
+	font-weight: 800;
+}
+
+.top-paragraph {
+	margin-top: 8em;
+	font-size: 1.2em;
+}
+
+img {
 	height: 100%;
 }
 
 .image-container {
 	position: relative;
 	width: 60%;
-  }
+}
 
-.image-container > img{
+.image-container>img {
 	height: 100%;
 }
 
-.logo > img{
+.logo>img {
 	max-width: 12%;
 	max-height: 12%;
 }
 
-.image{
+.image {
 	position: absolute;
 	width: 100%;
 	z-index: -1;
@@ -200,12 +215,12 @@ img{
 	position: absolute;
 	width: 100%;
 	background: rgba(0, 0, 0, 0.6);
-	top: 8rem;
+	top: 10rem;
 	text-align: center;
 	font-size: 5em;
-  }
+}
 
-.logo > p{
+.logo>p {
 	color: white;
 	font-family: norse, sans-serif;
 	font-weight: bold;
